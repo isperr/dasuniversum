@@ -447,9 +447,6 @@ header {
     color: #333333;
     background: url("../images/back2.jpg");
     background-size: cover; }
-    * body #test{
-      background: url("../images/button.png");
-      }
     * body h1 {
       color: #c0b2ee;
       font-family: ASTROLYTT;

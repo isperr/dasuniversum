@@ -1,0 +1,181 @@
+/* ----- STYLE COMPONTENTS ----- */
+
+#components {
+    margin-top: 4em !important;
+    margin: 2em 5em;
+
+    h1{
+        font-size: 4em;
+    }
+    h2{
+        margin-top: 1em;
+        font-size: 2em;
+        font-family: ASTROLYTT;
+        font-variant: small-caps;
+        color: $primary-color;
+        width: 100%;
+    }
+    p{
+        background: $white;
+        opacity: 0.85;
+        margin-top: 2em;
+        border-radius: 1em;
+        padding: 1.5em;
+        color: $gray;
+    }
+    img{
+        margin: 1em;
+        border-radius: 2em;
+        border: 0.05em solid $white;
+    }
+    #headings {
+        .img {
+            margin-top: 1em;
+            display: flex;
+            justify-content: space-around;
+            #headex {
+                height: 5em;
+                width: 20em;
+            }
+            #headcode {
+                height: 10em;
+                width: 25em;
+            }
+        }
+
+    }
+    #lists {
+        .imgs {
+            margin-top: 1em;
+            display: flex;
+            justify-content: space-around;
+            #listex {
+                height: 15em;
+                width: 20em;
+            }
+            #listhtml {
+                height: 15em;
+                width: 25em;
+            }
+            #listcss {
+                height: 25em;
+                width: 25em;
+            }
+        }
+    }
+    #links {
+        .imgs {
+            margin-top: 1em;
+            display: flex;
+            justify-content: space-around;
+            #linkex{
+                height: 30em;
+                width: 30em;
+            }
+            #linkcode {
+                height: 40em;
+                width: 30em;
+            }
+        }
+    }
+    #elements {
+        .imgsbutt {
+            margin-top: 1em;
+            display: flex;
+            justify-content: space-around;
+            #buttex {
+                height: 10em;
+                width: 20em;
+            }
+            #buttcode {
+                height: 10em;
+                width: 25em;
+            }
+        }
+        #radioex {
+            width: 15em;
+            height: 5em;
+            margin-left: 40%;
+        }
+        .imgsrad {
+            margin-top: 1em;
+            display: flex;
+            justify-content: space-around;
+            #radiocss1 {
+                width: 15em;
+                height: 20em;
+                border-radius: 1em;
+            }
+            #radiocss2{
+                width: 23em;
+                height: 20em;
+                border-radius: 1em;
+            }
+            #radiohtml {
+                width: 30em;
+                height: 13em;
+                border-radius: 1em;
+            }
+        }
+    }
+    #media {
+        display: flex;
+        flex-direction: column;
+        .text {
+            display: flex;
+            justify-content: space-between;
+            p{
+                width: 45%;
+            }
+        }
+        .imgs {
+            margin-top: 1em;
+            display: flex;
+            justify-content: space-around;
+            .gall{
+                display: flex;
+                flex-direction: column;
+                #gallery {
+                    height: 20em;
+                    width: 30em;
+                }
+                #gallcode {
+                    height: 8em;
+                    width: 25em;
+                    border-radius: 1em;
+                }
+            }
+            #planets {
+                height: 30em;
+                width: 30em;
+            }
+        }
+    }
+    #nav{
+        .imgs {
+            margin-top: 1em;
+            display: flex;
+            justify-content: space-around;
+            #burger {
+                height: 45em;
+                width: 20em;
+            }
+            .crumb{
+                display: flex;
+                flex-direction: column;
+                #bread {
+                    height: 10em;
+                    width: 30em;
+                }
+                #breadcss {
+                    height: 20em;
+                    width: 30em;
+                }
+                #breadhtml {
+                    height: 5em;
+                    width: 40em;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+/* ----- STYLE INTRODUCTION ----- */
+
+#introduction{
+    margin: 2em 5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    img{
+        margin-top: 4em;
+        width: 20em;
+    }
+    #content{
+        margin-top: 2em;
+        h1{
+            font-size: 4em;
+        }
+        p{
+            background: $white;
+            opacity: 0.85;
+            margin-top: 2em;
+            border-radius: 1em;
+            padding: 1.5em;
+            color: $gray;
+        }
+    }
+}

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="shortcut icon" type="image/x-icon" href="/icons/logo.jpeg">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+        <!-- font-awesome for SCROLL TO TOP ARROW -->
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <title>das universum</title>
+        <link rel="shortcut icon" type="image/x-icon" href="images/logo.png">
+
+    </head>
+    <body>
+        <header>
+            <h1>das universum</h1>
+            <nav id='mainnav'>
+                <section class="dropdown">
+                    <section class="container" onclick="func(); myFunction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </section>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Start</a>
+                        <a href="#introduction">Introduction</a>
+                        <a href="#naming">Naming</a>
+                        <a href="#fonts">Fonts</a>
+                        <a href="#colors">Colors</a>
+                        <a href="#logo">Logo</a>
+                        <a href="#methodology">Methodology</a>
+                        <a href="#components">Components</a>
+                    </div>
+                </section>
+            </nav>
+        </header>
+
+        <section id="introduction">
+            <img src="/images/logo.png" alt="Logo dasuniversum">
+            <section id="content">
+                <h1>„das universum“</h1>
+                <p>... is a website mainly for younger users, such as attendees of primary schools, 
+                    but also for everybody who is interested in the universe. As a brand, 
+                    we want to stand out by creating content that is easily understandable as well as visually pleasing for children. 
+                    This website was created in order to establish a more firmer brand identity. 
+                    Desgined in the style of the main website of 'das universum', it presents a set of guidelines for when you are referring to our brand.</p>
+            </section>
+        </section>
+        <section id="naming">
+            <section id="content">
+                <h1>Naming conventions</h1>
+                <p>The name 'das universum' actually speaks for itself. 
+                    It is written in lower case because it makes our brand stand out. 
+                    Children often don't care about capitalization. “das universum” must always be written in lower case. 
+                    Do not capitalize „das“ or „universum“ or both. 
+                    Do not link the two words together. </p>
+            </section>
+            <section id="images">
+                <section id="right">
+                    <h1>Correct:</h1>
+                    <img src="/images/right.png" alt="Right convention">
+                </section>
+                <section id="wrong">
+                    <h1>Incorrect:</h1>
+                    <img src="/images/wrong1.png" alt="Wrong convention 1">
+                    <img src="/images/wrong2.png" alt="Wrong convention 2">
+                    <img src="/images/wrong3.png" alt="Wrong convention 3">
+                    <img src="/images/wrong4.png" alt="Wrong convention 4">
+                </section>
+            </section>
+        </section>
+       
+        <section id="fonts">
+            <h1>Fonts</h1>
+            <section id="cont">
+                <p>The main heading of the homepage and any other headings use the font Astrolyte. Astrolyte is a font that represents the spirit of our brand. It conveys the feeling of the galaxy and the universe. </p>
+               <section id="images">
+                    <img src="/images/font1.png" alt="Used fonts example">
+                    <img src="/images/font2.png" alt="Used fonts example" style="height:400px;">
+                </section>
+                <p>The simpler font Roboto is used for plain text, for example in the biography of each planet. This is because our focus lies on imparting knowledge. A more thrilling font would be distracting and it would be harder for the user to focus on the text, especially for children. </p>
+           </section>
+        </section>
+
+        <section id="colors">
+            <h1>Our color palette</h1>
+            <section id="cont">
+                <div class="img"></div>
+                <section class="desc">
+                    <p>“zodiac purple” is used for headings and buttons</p>
+                    <p>“cosmic blue” is used for links and with input types</p>
+                    <p>plain text is either written in "noir" or "soft blanc". Since the background of the whole website is rather dark, we chose "soft blanc" for background fields.
+                    </p>
+                </section>
+            </section>
+        </section>
+
+        <section id="logo">
+            <h1>Logo</h1>
+            <p>The Logo of “das universum“ is a spiral that symbolizes the milky way. The brand uses this symbol in order to represent the universe with everything it includes, like planets and stars for example. Do not change the logo in any way. When using:</p>
+            <section class="donts">
+                <section>
+                    <img src="/images/logo_donts1.png" alt="Logo 1">
+                    <p>do not put the text inside the spiral</p>
+                </section>
+                <section>
+                    <img src="/images/logo_donts2.png" alt="Logo 1">
+                    <p>do not put the text below the spiral</p>
+                </section>  
+            </section>    
+        </section>
+
+        <section id="methodology">
+            <h1>CSS Methodology</h1>
+            <h2>Rules</h2>
+            <section id="content">
+                <section id="cont1">
+                    <div>
+                        <p>Indentation</p>
+                        <ul>
+                            <li>use tabs instead of spaces</li>
+                            <li>always use semicolons</li>
+                            <li>avoid px, whenever it's possible</li>
+                            <li>use em and % instead</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p>Folder structure</p>
+                        <ul>
+                            <li>App folder:</li>
+                            <ul>
+                                <li>html files</li>
+                                <li>Images folder</li>
+                                <li>JavaScript folder</li>
+                                <li>SCSS folder</li>
+                            </ul>
+                        <li>Doc folder</li>
+                        <li>Bin folder</li>
+                        </ul>
+                        <p>In order to avoid confusion, every type of code (e.g. css, html, js) has it's own folder.</p>
+                        <p>Since we use SASS as a preprocessor, all scss files start with underline (see example folder structure)</p>
+                    </div>
+                    <div>
+                        <p>Class naming convention</p>
+                        <ul>
+                            <li>if you want to assign a class name which consists of two words use camelCase</li>
+                            <li>if the class name contains a verb and a noun then write the verb before the noun</li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="cont2">
+                        <img src="/images/folderstructure.png" alt="Picture of folderstructure">
+                    </section>
+                <section id="images">
+                    <img src="/images/classnaming1.png" alt="classnaming html" id="eins">
+                    <img src="/images/classnaming2.png" alt="classnaming css" id="zwei">
+                    <img src="/images/sass_snippet.png" alt="sass code example" id="vier">
+                    <img src="/images/js_snippet.png" alt="JavaScript code example" id="drei">
+                </section>
+            </section>
+        </section>
+
+        <section id="components">
+            <h1>Component Library</h1>
+                <h2>Headings</h2>
+                <section id="headings">
+                    <p>Headings are styled in small-caps and in the color zodiac purple. However, you can decide whether you want to capitalize the words or not. They can be written next each other or with a space in-between. Do not style headings in lower case only.</p>
+                    <section class="img">
+                        <img src="/images/heading1.png" alt="Heading exmple" id="headex">
+                        <img src="/images/heading2.png" alt="Heading code" id="headcode">
+                    </section>
+                </section>
+                <h2>Lists</h2>
+                <section id="lists">
+                    <p>For lists we use unordered lists with stars instead of dots. This is a referral to the topic of our website. Also, it makes things more interesting for children. Do not use ordered lists with enumerations. Do not use dots instead of stars.</p>
+                    <section class="imgs">
+                        <img src="/images/lists1.png" alt="List Example" id="listex">
+                        <img src="/images/lists2.png" alt="Lists HTML Code" id="listhtml">
+                        <img src="/images/lists3.png" alt="Lists CSS Code" id="listcss">
+                    </section>
+                </section>
+                <h2>Links</h2>
+                <section id="links">
+                    <p>Links are not underlined and the style after visitation is the same as before. When hovering over the link it turns into italic and changes to the colour "cosmic blue". The cursor turns into a pointer.</p>
+                    <section class="imgs">
+                        <img src="/images/links1.png" alt="Links Example" id="linkex">
+                        <img src="/images/links2.png" alt="Links Code" id="linkcode">
+                    </section>
+                </section>
+                <h2>Elements</h2>
+                <section id="elements">
+                    <p>All text-fields and buttons have rounded corners. The border radius can be chosen freely, as long as it is not too round. Buttons have a shadow in the color "soft blanc" below and on the right side. This gives the impression that they are floating through the galaxy and makes it easier for children to understand that they can click on them.</p>
+                    <section class="imgsbutt">
+                        <img src="/images/button.png" alt="Button" id="buttex">
+                        <img src="/images/button_code.png" alt="Button Code" id="buttcode">
+                    </section>
+                    <p>Radio Buttons, which are used for the quiz, have a custom design. They are bigger than normal radio buttons. When checked, they don't show a circle inside but a checkmark instead. To indicate the hover, when deciding which one to click, the check field turns "cosmic blue". This also happens when a radio button is checked.</p>
+                    <img src="/images/check.png" alt="radiobuttons" id="radioex">
+                    <section class="imgsrad">
+                        <img src="/images/checkcss1.png" alt="radiobutton css code" id="radiocss1">
+                        <img src="/images/checkcss2.png" alt="radiobuttons" id="radiocss2">
+                        <img src="/images/checkhtml.png" alt="radiobutton hmtl code" id="radiohtml">
+                    </section>
+                </section>
+                <h2>Media Blocks: </h2>
+                <section id="media">
+                    <section class="text">
+                        <p>For pictures, always use the best quality that is possible. 
+                        When displaying a picture gallery give the pictures a thin border in "soft blanc" in order to make them stand out from dark the background.</p>
+                        <p>Pictures of planets have a transparent background. They also have a personality (represented by a "face") to make them more interesting for children. Personalizing the planets gives you a higher chance of children remembering them.</p>
+                    </section>
+                    <section class="imgs">
+                        <section class="gall">
+                            <img src="/images/media.png" alt="mediablock" id="gallery">
+                            <img src="/images/gallery_css.png" alt="gallery code" id="gallcode">
+                        </section>
+                        <img src="/images/planets.jpg" alt="planeten" id="planets">
+                    </section>
+                </section>
+                <h2>Navigation</h2>
+                <section id="nav">
+                    <p>For the main menu navigation use a simple burger menu instead of a full list of links that is always present. This makes the homepage seem lass cramped. To help the user navigate easily through the website, use a bread-crumb navigation. Users will always know exactly on which page they currently are and can trace their steps back to the homepage.</p>
+                    <section class="imgs">
+                        <img src="/images/burgermenu.png" alt="Burger example" id="burger">
+                        <section class="crumb">
+                            <img src="/images/breadcrumb1.png" alt="Bread Crumb example" id="bread">
+                            <img src="/images/breadcrumb2.png" alt="Bread Crumb CSS Code" id="breadcss">
+                            <img src="/images/breadcrumb3.png" alt="Bread Crumb HTML Code" id="breadhtml">
+                            </section>
+                    </section>
+                </section>      
+            </section>
+        
+        <!-- SCROLL TO TOP ARROW -->
+        <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+        
+        <footer class="cred">
+            <p>Content by Melanie Reisenbichler and Isabella Sperr. Planet-Pictures from Freepik and NASA.</p>
+        </footer>
+
+        
+        <script>
+            function myFunction(x) {
+                x.classList.toggle("change");
+            }
+            function func() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+        </script>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="/js/javascript.js"></script>
+    </body>
+</html>
